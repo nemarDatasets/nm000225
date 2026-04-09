@@ -1,0 +1,69 @@
+{
+  "participant_id": {
+    "Description": "Subject ID (derived from WFDB record name)"
+  },
+  "age": {
+    "Description": "Age at time of recording",
+    "Units": "years"
+  },
+  "sex": {
+    "Description": "Biological sex",
+    "Levels": {
+      "M": "Male",
+      "F": "Female"
+    }
+  },
+  "split": {
+    "Description": "Challenge split",
+    "Levels": {
+      "training": "Training set (with expert sleep staging and arousal annotations)",
+      "test": "Test set (PSG signals only, no annotations)"
+    }
+  },
+  "record": {
+    "Description": "Original WFDB record name from PhysioNet"
+  },
+  "duration_h": {
+    "Description": "Recording duration",
+    "Units": "hours"
+  },
+  "n_wake": {
+    "Description": "Number of 30-second Wake epochs (training only)"
+  },
+  "n_n1": {
+    "Description": "Number of 30-second N1 (NREM stage 1) epochs"
+  },
+  "n_n2": {
+    "Description": "Number of 30-second N2 (NREM stage 2) epochs"
+  },
+  "n_n3": {
+    "Description": "Number of 30-second N3 (slow-wave sleep) epochs"
+  },
+  "n_rem": {
+    "Description": "Number of 30-second REM epochs"
+  },
+  "n_arousal_rera": {
+    "Description": "Number of respiratory effort-related arousal (RERA) events"
+  },
+  "n_arousal_spontaneous": {
+    "Description": "Number of spontaneous arousal events"
+  },
+  "n_arousal_snore": {
+    "Description": "Number of snoring-related arousal events"
+  },
+  "n_arousal_plm": {
+    "Description": "Number of periodic leg movement arousal events"
+  },
+  "n_resp_obstructive": {
+    "Description": "Number of obstructive apnea events"
+  },
+  "n_resp_central": {
+    "Description": "Number of central apnea events"
+  },
+  "n_resp_hypopnea": {
+    "Description": "Number of hypopnea events"
+  },
+  "n_resp_mixed": {
+    "Description": "Number of mixed apnea events"
+  }
+}

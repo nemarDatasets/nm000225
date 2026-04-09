@@ -1,0 +1,44 @@
+{
+  "onset": {
+    "Description": "Onset (in seconds) of the event from the beginning of the first datapoint. Negative onsets account for events before the first stored data point.",
+    "Units": "s"
+  },
+  "duration": {
+    "Description": "Duration of the event in seconds from onset. Must be zero, positive, or 'n/a' if unavailable. A zero value indicates an impulse event. ",
+    "Units": "s"
+  },
+  "sample": {
+    "Description": "The event onset time in number of sampling points.First sample is 0."
+  },
+  "value": {
+    "Description": "The event code (also known as trigger code or event ID) associated with the event."
+  },
+  "trial_type": {
+    "Description": "Event type: sleep stage (30-second epoch) or arousal/respiratory event",
+    "Levels": {
+      "Wake": "Wakefulness (AASM stage W)",
+      "N1": "NREM stage 1 \u2014 light sleep",
+      "N2": "NREM stage 2 \u2014 sleep spindles and K-complexes",
+      "N3": "NREM stage 3 \u2014 slow-wave (deep) sleep",
+      "REM": "Rapid eye movement sleep",
+      "arousal_rera": "Respiratory effort-related arousal (RERA)",
+      "arousal_spontaneous": "Spontaneous cortical arousal",
+      "arousal_snore": "Snoring-related arousal",
+      "arousal_plm": "Periodic leg movement arousal",
+      "resp_obstructiveapnea": "Obstructive apnea \u2014 complete upper airway obstruction",
+      "resp_centralapnea": "Central apnea \u2014 absent respiratory effort",
+      "resp_mixedapnea": "Mixed apnea \u2014 combined obstructive and central",
+      "resp_hypopnea": "Hypopnea \u2014 partial airway obstruction (>=30% flow reduction)",
+      "resp_partialobstructive": "Partial airway obstruction",
+      "resp_hypoventilation": "Hypoventilation \u2014 inadequate ventilation",
+      "resp_cheynestokesbreath": "Cheyne-Stokes breathing \u2014 cyclic crescendo-decrescendo pattern",
+      "arousal_bruxism": "Bruxism (teeth grinding) arousal",
+      "arousal_noise": "Noise-related arousal"
+    }
+  },
+  "StimulusPresentation": {
+    "OperatingSystem": "n/a",
+    "SoftwareName": "n/a",
+    "SoftwareVersion": "n/a"
+  }
+}
