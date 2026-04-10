@@ -1,0 +1,14 @@
+﻿name	type	units	low_cutoff	high_cutoff	description	sampling_frequency	status	status_description
+F3-M2	EEG	V	0.0	100.0	ElectroEncephaloGram	200.0	good	n/a
+F4-M1	EEG	V	0.0	100.0	ElectroEncephaloGram	200.0	good	n/a
+C3-M2	EEG	V	0.0	100.0	ElectroEncephaloGram	200.0	good	n/a
+C4-M1	EEG	V	0.0	100.0	ElectroEncephaloGram	200.0	good	n/a
+O1-M2	EEG	V	0.0	100.0	ElectroEncephaloGram	200.0	good	n/a
+O2-M1	EEG	V	0.0	100.0	ElectroEncephaloGram	200.0	good	n/a
+E1-M2	EOG	V	0.0	100.0	ElectroOculoGram	200.0	good	n/a
+Chin1-Chin2	EMG	V	0.0	100.0	ElectroMyoGram	200.0	good	n/a
+ABD	MISC	n/a	0.0	100.0	Miscellaneous	200.0	good	n/a
+CHEST	MISC	n/a	0.0	100.0	Miscellaneous	200.0	good	n/a
+AIRFLOW	MISC	n/a	0.0	100.0	Miscellaneous	200.0	good	n/a
+SaO2	MISC	n/a	0.0	100.0	Miscellaneous	200.0	good	n/a
+ECG	ECG	V	0.0	100.0	ElectroCardioGram	200.0	good	n/a
