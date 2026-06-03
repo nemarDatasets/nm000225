@@ -1,0 +1,104 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Mohammad M. Ghassemi": {},
+    "Benjamin E. Moody": {},
+    "Li-wei H. Lehman": {},
+    "Christopher Song": {},
+    "Qiao Li": {},
+    "Haoqi Sun": {},
+    "Roger G. Mark": {},
+    "M. Brandon Westover": {},
+    "Gari D. Clifford": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.13026/6phb-r450",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.22489/CinC.2018.049",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000225",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000225",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "The MathWorks (equipment sponsorship)"
+    },
+    {
+      "funder_name": "National Institute of Biomedical Imaging and Bioengineering (NIBIB)",
+      "award_number": "U24EB037545"
+    },
+    {
+      "funder_name": "National Institute of Biomedical Imaging and Bioengineering (NIBIB)",
+      "award_number": "R01EB030362"
+    }
+  ],
+  "title": "PhysioNet 2018 Challenge: Sleep Arousal Detection PSG (Training)",
+  "license": "Open Data Commons Attribution License v1.0",
+  "dataset_type": "raw",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "430.7 GB (1985 files)"
+  ],
+  "formats": [
+    ".bak",
+    ".bdf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "A polysomnographic dataset comprising 1,983 overnight sleep recordings from Massachusetts General Hospital, including 994 training subjects with expert annotations and 989 test subjects. The dataset was created for the PhysioNet/Computing in Cardiology Challenge 2018 on automatic arousal detection and includes 13 physiological channels (EEG, EOG, EMG, respiratory, SpO2, ECG) sampled at 200 Hz, with annotations for sleep stages, respiratory events, and arousal types following AASM standards.",
+  "methods_description": "Polysomnographic recordings acquired at 200 Hz from 13 channels including 6 EEG leads (referential montage against contralateral mastoids), 1 EOG, 1 chin EMG, 3 respiratory effort/airflow channels, pulse oximetry, and single-lead ECG. Sleep staging and arousal events annotated by certified sleep technologists following AASM manual standards in 30-second contiguous epochs.",
+  "keywords": [
+    {
+      "term": "Polysomnography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D017286"
+    },
+    {
+      "term": "sleep arousal detection"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "sleep staging"
+    },
+    {
+      "term": "obstructive sleep apnea"
+    },
+    {
+      "term": "respiratory events"
+    }
+  ],
+  "source_hash": "bd63f249f54b9e8f6cbdac0f63cd9691921db5e4223b5e3d762051f7d3e3a677"
+}
