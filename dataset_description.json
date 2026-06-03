@@ -26,7 +26,7 @@
     "https://doi.org/10.22489/CinC.2018.049",
     "https://doi.org/10.13026/6phb-r450"
   ],
-  "DatasetDOI": "doi:10.13026/6phb-r450",
+  "DatasetDOI": "10.82901/nemar.nm000225",
   "GeneratedBy": [
     {
       "Name": "convert_sleep_challenge_2018.py (EEGDash)",
@@ -37,6 +37,9 @@
   "SourceDatasets": [
     {
       "URL": "https://physionet.org/content/challenge-2018/1.0.0/"
+    },
+    {
+      "DOI": "doi:10.13026/6phb-r450"
     }
   ],
   "Version": "1.1.0"
