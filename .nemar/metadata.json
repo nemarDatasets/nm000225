@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "PhysioNet 2018 Challenge: Sleep Arousal Detection PSG (Training)",
+  "description": "This dataset contains 1,983 overnight polysomnographic recordings from patients monitored at the Massachusetts General Hospital sleep laboratory for suspected sleep disorders, mainly obstructive sleep apnea. It was assembled for the PhysioNet/Computing in Cardiology Challenge 2018 on automatic detection of sleep arousals. The training set (994 subjects) includes expert annotations of sleep stages, respiratory events and arousals, and the test set (989 subjects) contains signals only. Recordings cover EEG, EOG, chin EMG, respiratory effort, airflow, SpO2 and ECG, sampled at 200 Hz.",
+  "methods_description": "Overnight PSG was recorded at 200 Hz over 13 channels: 6 EEG in a referential mastoid montage, 1 EOG, 1 chin EMG, 3 respiratory channels (abdominal, chest, airflow), SaO2 (resampled to 200 Hz) and 1 ECG. Certified sleep technologists scored sleep stages in 30-second epochs following the AASM manual, and also scored respiratory events and arousals. The original WFDB files were converted to BIDS-EEG.",
+  "license": "Open Data Commons Attribution License v1.0",
+  "dataset_type": "raw",
   "authors": {
     "Mohammad M. Ghassemi": {},
     "Benjamin E. Moody": {},
@@ -12,6 +17,34 @@
     "M. Brandon Westover": {},
     "Gari D. Clifford": {}
   },
+  "keywords": [
+    {
+      "term": "Polysomnography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D017286"
+    },
+    {
+      "term": "Sleep Apnea, Obstructive",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D020181"
+    },
+    {
+      "term": "Arousal",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001143"
+    },
+    {
+      "term": "Sleep Stages",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D012894"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "sleep arousal detection"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.13026/6phb-r450",
@@ -21,15 +54,10 @@
     {
       "identifier": "10.22489/CinC.2018.049",
       "identifier_type": "DOI",
-      "relation_type": "References"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/nm000225",
-      "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000225",
+      "identifier": "https://github.com/nemarDatasets/nm000225",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -42,6 +70,11 @@
       "identifier": "10.1038/s41597-019-0104-8",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000225",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -55,18 +88,18 @@
     {
       "funder_name": "National Institute of Biomedical Imaging and Bioengineering (NIBIB)",
       "award_number": "R01EB030362"
+    },
+    {
+      "funder_name": "The MathWorks"
     }
   ],
-  "title": "PhysioNet 2018 Challenge: Sleep Arousal Detection PSG (Training)",
-  "license": "Open Data Commons Attribution License v1.0",
-  "dataset_type": "raw",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "430.7 GB (1985 files)"
+    "401 GB (1985 files)"
   ],
   "formats": [
     ".bak",
@@ -75,30 +108,6 @@
     ".md",
     ".tsv",
     ".yml"
-  ],
-  "description": "A polysomnographic dataset comprising 1,983 overnight sleep recordings from Massachusetts General Hospital, including 994 training subjects with expert annotations and 989 test subjects. The dataset was created for the PhysioNet/Computing in Cardiology Challenge 2018 on automatic arousal detection and includes 13 physiological channels (EEG, EOG, EMG, respiratory, SpO2, ECG) sampled at 200 Hz, with annotations for sleep stages, respiratory events, and arousal types following AASM standards.",
-  "methods_description": "Polysomnographic recordings acquired at 200 Hz from 13 channels including 6 EEG leads (referential montage against contralateral mastoids), 1 EOG, 1 chin EMG, 3 respiratory effort/airflow channels, pulse oximetry, and single-lead ECG. Sleep staging and arousal events annotated by certified sleep technologists following AASM manual standards in 30-second contiguous epochs.",
-  "keywords": [
-    {
-      "term": "Polysomnography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D017286"
-    },
-    {
-      "term": "sleep arousal detection"
-    },
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "sleep staging"
-    },
-    {
-      "term": "obstructive sleep apnea"
-    },
-    {
-      "term": "respiratory events"
-    }
   ],
   "source_hash": "bd63f249f54b9e8f6cbdac0f63cd9691921db5e4223b5e3d762051f7d3e3a677"
 }
